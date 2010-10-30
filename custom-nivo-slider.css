@@ -42,16 +42,16 @@ div.nivoSlider a {
 
 .nivo-directionNav a {
 	display:block;
-	width:32px;
-	height:34px;
+	width:30px;
+	height:30px;
 	background:url(arrows.png) no-repeat;
 	text-indent:-9999px;
 	border:0;
 }
 a.nivo-nextNav {
-	background-position:-32px 0;
-	right:10px;
+	background-position:-30px 0;
+	right:15px;
 }
 a.nivo-prevNav {
-	left:10px;
+	left:15px;
 }
