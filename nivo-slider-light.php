@@ -22,10 +22,10 @@ function NivoHeader() {
 ?>
 <script type="text/javascript">
 	$(function() {
-		$(".nivoSlider br").each(function(){ // strip BR elements created by Wordpress
-			$(this).remove();
+		jQuery(".nivoSlider br").each(function(){ // strip BR elements created by Wordpress
+			jQuery(this).remove();
 		});
-		$('.nivoSlider').nivoSlider({
+		jQuery('.nivoSlider').nivoSlider({
 			effect:'fade', //Specify sets like: 'random,fold,fade,sliceDown'
 			animSpeed:500, //Slide transition speed
 			pauseTime:3000,
