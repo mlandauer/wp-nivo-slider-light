@@ -5,7 +5,10 @@
 
 div.nivoSlider {
 	position:relative;
-	margin:0px 0px 60px 0px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:60px;
 	background:#202834 url(loading.gif) no-repeat 50% 50%;
 	-moz-box-shadow:0px 0px 10px #333;
 	-webkit-box-shadow:0px 0px 10px #333;
@@ -23,7 +26,7 @@ div.nivoSlider a {
 
 .nivo-controlNav {
 	position:absolute;
-	left:33%;
+	left:47%;
 	bottom:-30px;
 }
 .nivo-controlNav a {
